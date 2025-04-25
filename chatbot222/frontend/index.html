@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Bancaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Icône de chat -->
+  <div id="chat-icon">
+    💬
+  </div>
+
+  <!-- Boîte de chat cachée au départ -->
+  <div id="chat-box" class="hidden">
+    <div id="chat-messages"></div>
+    <div id="chat-input">
+      <input type="text" id="user-input" placeholder="Pose ta question..." />
+      <button onclick="sendMessage()">Envoyer</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
